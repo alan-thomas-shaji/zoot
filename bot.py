@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import datetime
 
 def sign_in(meetingid, pswd):
-    subprocess.call(r'C:\\Users\capta\AppData\Roaming\Zoom\bin\Zoom.exe')
+    subprocess.call(r'C:\\Users\capta\AppData\Roaming\Zoom\bin\Zoom.exe') #edit this to your respective paths to the zoom app
 
     time.sleep(5)
     
